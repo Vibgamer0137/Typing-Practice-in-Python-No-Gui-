@@ -21,5 +21,8 @@ class main:
                 a = input(f"Enter {word}: ")
         print("Completed")
     def practice_a_word_saved(self):
-        print("Still not implemented")
-    
+        print("--------------Still not implemented--------------")
+    def exit():
+        print("---------Thank you for using this program!-------")
+        print("------------------Bye Bye------------------------")
+        exit()
