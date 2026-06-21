@@ -5,7 +5,7 @@ class main:
         print("---------------1.Practice a word------------------")
         print("----2.Practice a word saved(still developing)-----")
         print("-------------------3.Exit-------------------------")
-        menu_choice =  input("Choose ethier 1 nor 2 nor 3:")
+        menu_choice =  int(input("Choose ethier 1 nor 2 nor 3:"))
         return menu_choice
     def practice_a_word(self, word, times):
         times = times+1
@@ -24,7 +24,7 @@ class main:
         print("--------------Still not implemented--------------")
         print("---------------Bye-bye---------------------------")
         exit()
-    def exit():
+    def exit(self):
         print("---------Thank you for using this program!-------")
         print("------------------Bye Bye------------------------")
         exit()
