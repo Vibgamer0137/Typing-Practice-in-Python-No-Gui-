@@ -26,3 +26,5 @@ class main:
         print("---------Thank you for using this program!-------")
         print("------------------Bye Bye------------------------")
         exit()
+
+code = main()
