@@ -20,3 +20,6 @@ class main:
                 t.sleep(5)
                 a = input(f"Enter {word}: ")
         print("Completed")
+    def practice_a_word_saved(self):
+        print("Still not implemented")
+    
