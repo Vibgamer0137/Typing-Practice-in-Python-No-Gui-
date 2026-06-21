@@ -22,6 +22,8 @@ class main:
         print("Completed")
     def practice_a_word_saved(self):
         print("--------------Still not implemented--------------")
+        print("---------------Bye-bye---------------------------")
+        exit()
     def exit():
         print("---------Thank you for using this program!-------")
         print("------------------Bye Bye------------------------")
