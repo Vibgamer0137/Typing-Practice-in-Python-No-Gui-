@@ -8,17 +8,21 @@ class main:
         menu_choice =  int(input("Choose ethier 1 nor 2 nor 3:"))
         return menu_choice
     def practice_a_word(self, word, times):
-        times = times+1
-        for i in range(1, times):
-            a = input(f"Enter {word}: ")
-            while a==word:
-                print("Succesfull")
+        count = 1
+        for i in range(times):
+            while True:
                 a = input(f"Enter {word}: ")
-            else:
-                print(f"You entered wrong word:{a}")
-                print("Retrying")
-                t.sleep(5)
-                a = input(f"Enter {word}: ")
+                if word == a:
+                    if count == times:
+                        print("Your have completed the practice section")
+                        exit()
+                    else:
+                        count += 1
+                        print("Succesfull")
+                else:
+                    pass
+                    
+                
         print("Completed")
     def practice_a_word_saved(self):
         print("--------------Still not implemented--------------")
